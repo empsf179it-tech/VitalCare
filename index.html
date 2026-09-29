@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="VitalCare provides thoughtful, personalized home care and caretaker support designed around comfort, dignity and peace of mind.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="VitalCare — Premium Compassionate Home Care">
+    <meta property="og:description"
+        content="VitalCare provides thoughtful, personalized home care and caretaker support designed around comfort, dignity and peace of mind.">
+    <meta property="og:type" content="website">
+
+    <title>VitalCare — Premium Compassionate Home Care</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo" aria-label="VitalCare Home">
+                <div class="logo-svg">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Subtle heart + human + ring -->
+                        <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="3"
+                            stroke-dasharray="10 5" opacity="0.3" />
+                        <circle cx="50" cy="50" r="38" fill="none" stroke="currentColor" stroke-width="1"
+                            opacity="0.6" />
+                        <path
+                            d="M50 40 C 50 40, 40 30, 30 40 C 20 50, 50 70, 50 70 C 50 70, 80 50, 70 40 C 60 30, 50 40, 50 40 Z"
+                            fill="currentColor" opacity="0.2" />
+                        <circle cx="50" cy="35" r="8" fill="currentColor" />
+                        <path d="M35 70 C 35 55, 65 55, 65 70" fill="none" stroke="currentColor" stroke-width="6"
+                            stroke-linecap="round" />
+                        <path d="M60 25 Q 70 20 75 30" fill="none" stroke="var(--accent)" stroke-width="3"
+                            stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <span class="wordmark">VITALCARE</span>
+                    <span class="descriptor">COMPASSIONATE HOME CARE</span>
+                </div>
+            </a>
+
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#approach" class="nav-link">Care Approach</a>
+                <a href="#why-vitalcare" class="nav-link">Why VitalCare</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-right">
+                <button class="btn btn-primary cta-trigger">Request Care <span class="arrow">→</span></button>
+                <button class="menu-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <div class="mobile-links">
+                <a href="#home" class="mobile-link">Home</a>
+                <a href="#about" class="mobile-link">About</a>
+                <a href="#services" class="mobile-link">Services</a>
+                <a href="#approach" class="mobile-link">Care Approach</a>
+                <a href="#why-vitalcare" class="mobile-link">Why VitalCare</a>
+                <a href="#contact" class="mobile-link">Contact</a>
+                <button class="btn btn-primary cta-trigger mobile-btn">Request Care <span
+                        class="arrow">→</span></button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- 7. Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content reveal-up">
+                    <span class="eyebrow">PREMIUM HOME CARE</span>
+                    <h1 class="hero-title">Care That Feels Like Family.</h1>
+                    <p class="hero-desc">Professional, compassionate support designed around the people and families who
+                        matter most.</p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary cta-trigger">Request Care <span class="arrow">→</span></button>
+                        <a href="#services" class="btn btn-secondary">Explore Our Care</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-image-wrapper">
+                        <!-- Unsplash placeholder for realistic elder care -->
+                        <img src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=2000&auto=format&fit=crop"
+                            alt="Professional female caretaker gently assisting an elderly person at home"
+                            class="hero-img parallax-img">
+
+                        <!-- Floating Badges -->
+                        <div class="floating-badge badge-1">
+                            <span class="badge-title">Trusted Care</span>
+                            <span class="badge-sub">Professional • Personal • Reliable</span>
+                        </div>
+                        <div class="floating-badge badge-2">
+                            <span class="badge-title">24/7 Family Support</span>
+                        </div>
+                    </div>
+
+                    <!-- 8. Hero 3D Effect -->
+                    <div class="hero-3d-object" id="hero-3d">
+                        <div class="sphere-core"></div>
+                        <div class="sphere-ring ring-1"></div>
+                        <div class="sphere-ring ring-2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. Home / Trust Strip -->
+        <section class="trust-strip">
+            <div class="trust-container reveal-up">
+                <div class="trust-item">
+                    <span class="trust-num">01</span>
+                    <span class="trust-text">Personalized Care</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-num">02</span>
+                    <span class="trust-text">Trained Caregivers</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-num">03</span>
+                    <span class="trust-text">Family Communication</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-num">04</span>
+                    <span class="trust-text">Comfort at Home</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. About Section -->
+        <section id="about" class="about section-padding">
+            <div class="container about-grid">
+                <div class="about-images reveal-left">
+                    <div class="about-img-main">
+                        <img src="assets/images/Professional caretaker talking with elderly woman in a bright home.png"
+                            alt="Professional caretaker talking with elderly woman in a bright home">
+                    </div>
+                    <div class="about-img-overlap">
+                        <img src="assets/images/Professional caretaker talking with elderly woman in a bright home2.png"
+                            alt="Elderly person walking safely with caregiver">
+                    </div>
+                </div>
+                <div class="about-content reveal-right">
+                    <span class="eyebrow">WHO WE ARE</span>
+                    <h2>Care Built Around People.</h2>
+                    <p class="lead">VitalCare provides thoughtful home-based support for older adults and families who
+                        value comfort, dignity and dependable everyday assistance.</p>
+                    <p>Our approach combines professional caregiving standards with genuine human connection, helping
+                        families feel supported even when they cannot always be there themselves.</p>
+
+                    <div class="stats-area">
+                        <div class="stat-box">
+                            <span class="stat-val counter" data-target="10">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Care Services</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-val counter" data-target="100">0</span><span class="stat-plus">%</span>
+                            <span class="stat-label">Personalized Approach</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-val">24/7</span>
+                            <span class="stat-label">Family Communication</span>
+                        </div>
+                    </div>
+                    <a href="#approach" class="btn btn-secondary">Meet Our Care Approach <span
+                            class="arrow">→</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. Services Section -->
+        <section id="services" class="services section-padding bg-ivory">
+            <div class="container">
+                <div class="section-header center reveal-up">
+                    <h2>Care Designed Around Everyday Life.</h2>
+                    <p>From everyday assistance to specialized support, every care plan is shaped around individual
+                        needs.</p>
+                </div>
+
+                <!-- 12. Service 3D Interaction inside CSS -->
+                <div class="service-grid">
+                    <div class="service-card reveal-up">
+                        <div class="card-bg">
+                            <img src="assets/images/PERSONAL CARE.png" alt="Personal Care">
+                        </div>
+                        <div class="card-content" style="position: relative; z-index: 2; color: white;">
+                            <span class="service-num" style="color: rgba(255,255,255,0.3);">01</span>
+                            <h3 style="color: white;">PERSONAL CARE</h3>
+                            <p style="color: rgba(255,255,255,0.9);">Bathing assistance, grooming, dressing and everyday
+                                personal support.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card reveal-up" style="transition-delay: 100ms;">
+                        <div class="card-bg">
+                            <img src="assets/images/COMPANIONSHIP.png" alt="Companionship">
+                        </div>
+                        <div class="card-content" style="position: relative; z-index: 2; color: white;">
+                            <span class="service-num" style="color: rgba(255,255,255,0.3);">02</span>
+                            <h3 style="color: white;">COMPANIONSHIP</h3>
+                            <p style="color: rgba(255,255,255,0.9);">Conversation, emotional support, reading, hobbies
+                                and meaningful daily interaction.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card reveal-up" style="transition-delay: 200ms;">
+                        <div class="card-bg">
+                            <img src="assets/images/DAILY LIVING SUPPORT.png" alt="Daily Living Support">
+                        </div>
+                        <div class="card-content" style="position: relative; z-index: 2; color: white;">
+                            <span class="service-num" style="color: rgba(255,255,255,0.3);">03</span>
+                            <h3 style="color: white;">DAILY LIVING SUPPORT</h3>
+                            <p style="color: rgba(255,255,255,0.9);">Meal assistance, light household support, errands
+                                and daily routines.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card reveal-up">
+                        <div class="card-bg">
+                            <img src="assets/images/MOBILITY SUPPORT.png" alt="Mobility Support">
+                        </div>
+                        <div class="card-content" style="position: relative; z-index: 2; color: white;">
+                            <span class="service-num" style="color: rgba(255,255,255,0.3);">04</span>
+                            <h3 style="color: white;">MOBILITY SUPPORT</h3>
+                            <p style="color: rgba(255,255,255,0.9);">Safe walking assistance, movement support and
+                                everyday mobility guidance.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card reveal-up" style="transition-delay: 100ms;">
+                        <div class="card-bg">
+                            <img src="assets/images/MEDICATION REMINDERS.png" alt="Medication Reminders">
+                        </div>
+                        <div class="card-content" style="position: relative; z-index: 2; color: white;">
+                            <span class="service-num" style="color: rgba(255,255,255,0.3);">05</span>
+                            <h3 style="color: white;">MEDICATION REMINDERS</h3>
+                            <p style="color: rgba(255,255,255,0.9);">Non-clinical medication reminders and routine
+                                support as directed by the family or healthcare professional.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card reveal-up" style="transition-delay: 200ms;">
+                        <div class="card-bg">
+                            <img src="assets/images/POST-HOSPITAL SUPPORT.png" alt="Post-Hospital Support">
+                        </div>
+                        <div class="card-content" style="position: relative; z-index: 2; color: white;">
+                            <span class="service-num" style="color: rgba(255,255,255,0.3);">06</span>
+                            <h3 style="color: white;">POST-HOSPITAL SUPPORT</h3>
+                            <p style="color: rgba(255,255,255,0.9);">Comfort-focused assistance during the transition
+                                from hospital to home.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card reveal-up">
+                        <div class="card-bg">
+                            <img src="assets/images/DEMENTIA-FRIENDLY CARE.png" alt="Dementia-Friendly Care">
+                        </div>
+                        <div class="card-content" style="position: relative; z-index: 2; color: white;">
+                            <span class="service-num" style="color: rgba(255,255,255,0.3);">07</span>
+                            <h3 style="color: white;">DEMENTIA-FRIENDLY CARE</h3>
+                            <p style="color: rgba(255,255,255,0.9);">Patient, structured companionship and routine
+                                support for families seeking additional assistance.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card reveal-up" style="transition-delay: 100ms;">
+                        <div class="card-bg">
+                            <img src="assets/images/FAMILY CARE SUPPORT.png" alt="Family Care Support">
+                        </div>
+                        <div class="card-content" style="position: relative; z-index: 2; color: white;">
+                            <span class="service-num" style="color: rgba(255,255,255,0.3);">08</span>
+                            <h3 style="color: white;">FAMILY CARE SUPPORT</h3>
+                            <p style="color: rgba(255,255,255,0.9);">Regular updates and communication designed to help
+                                families stay connected.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 13. Care Approach Section -->
+        <section id="approach" class="approach section-padding">
+            <div class="container">
+                <div class="section-header center reveal-up">
+                    <h2>A Better Way to Care.</h2>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline-line">
+                        <div class="timeline-progress"></div>
+                    </div>
+
+                    <div class="timeline-steps">
+                        <div class="timeline-step reveal-up">
+                            <div class="step-num">01</div>
+                            <div class="step-content">
+                                <h3>LISTEN</h3>
+                                <p>We understand the individual, their routines and their family's expectations.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step reveal-up" style="transition-delay: 100ms;">
+                            <div class="step-num">02</div>
+                            <div class="step-content">
+                                <h3>PERSONALIZE</h3>
+                                <p>We shape care around the person's lifestyle and everyday needs.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step reveal-up" style="transition-delay: 200ms;">
+                            <div class="step-num">03</div>
+                            <div class="step-content">
+                                <h3>SUPPORT</h3>
+                                <p>Our caregivers provide consistent, respectful assistance.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step reveal-up" style="transition-delay: 300ms;">
+                            <div class="step-num">04</div>
+                            <div class="step-content">
+                                <h3>CONNECT</h3>
+                                <p>Families stay informed and connected throughout the care journey.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 14. Care Experience Section -->
+        <section class="care-experience">
+            <div class="container experience-content">
+                <h2 class="reveal-up">More Than Assistance.<br>A Sense of Belonging.</h2>
+
+
+
+                <div class="glass-card reveal-up">
+                    <p>Great care is not only about what we do. It is about how we make people feel — safe, respected,
+                        heard and valued.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 15. Why VitalCare Section -->
+        <section id="why-vitalcare" class="why-vitalcare section-padding">
+            <div class="container">
+                <div class="section-header center reveal-up">
+                    <h2>Why Families Choose VitalCare.</h2>
+                </div>
+
+                <div class="bento-grid">
+                    <div class="bento-item bento-img reveal-up">
+                        <img src="assets/images/TRUSTED CAREGIVERS.png" alt="Trusted Caregivers">
+                        <div class="bento-content overlay-content">
+                            <h3>TRUSTED CAREGIVERS</h3>
+                            <p>Professional and compassionate caregivers selected for reliability and care-focused
+                                attitude.</p>
+                        </div>
+                    </div>
+
+                    <div class="bento-item bento-img reveal-up" style="transition-delay: 100ms;">
+                        <img src="assets/images/PERSONALIZED PLANS.png" alt="Personalized Plans">
+                        <div class="bento-content overlay-content">
+                            <h3>PERSONALIZED PLANS</h3>
+                            <p>Support designed around individual routines and family expectations.</p>
+                        </div>
+                    </div>
+
+                    <div class="bento-item bento-img reveal-up" style="transition-delay: 200ms;">
+                        <img src="assets/images/FAMILY CONNECTION.png" alt="Family Connection">
+                        <div class="bento-content overlay-content">
+                            <h3>FAMILY CONNECTION</h3>
+                            <p>Clear communication helps families remain involved.</p>
+                        </div>
+                    </div>
+
+                    <div class="bento-item bento-img reveal-up">
+                        <img src="assets/images/DIGNITY FIRST.png" alt="Dignity First">
+                        <div class="bento-content overlay-content">
+                            <h3>DIGNITY FIRST</h3>
+                            <p>Every interaction is designed around respect, independence and comfort.</p>
+                        </div>
+                    </div>
+
+                    <div class="bento-item bento-img reveal-up" style="transition-delay: 100ms;">
+                        <img src="assets/images/CONSISTENT SUPPORT.png" alt="Consistent Support">
+                        <div class="bento-content overlay-content">
+                            <h3>CONSISTENT SUPPORT</h3>
+                            <p>Reliable care designed to bring continuity into everyday life.</p>
+                        </div>
+                    </div>
+
+                    <div class="bento-item bento-img reveal-up" style="transition-delay: 200ms;">
+                        <img src="assets/images/HOME-FIRST APPROACH.png" alt="Home-First Approach">
+                        <div class="bento-content overlay-content">
+                            <h3>HOME-FIRST APPROACH</h3>
+                            <p>Support people in the comfort and familiarity of their own environment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 15b. FAQ Section -->
+        <section id="faq" class="faq section-padding">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <span class="eyebrow">COMMON QUESTIONS</span>
+                    <h2>Frequently Asked Questions.</h2>
+                    <p class="lead">Clear answers to help your family make the best decision.</p>
+                </div>
+
+                <div class="faq-grid">
+                    <div class="faq-item reveal-up">
+                        <h3>How quickly can care services begin?</h3>
+                        <p>Depending on the requirements, care can often begin within 24 to 48 hours after our initial
+                            consultation and care plan approval.</p>
+                    </div>
+                    <div class="faq-item reveal-up" style="transition-delay: 100ms;">
+                        <h3>Are your caregivers trained and vetted?</h3>
+                        <p>Absolutely. Every caregiver goes through a rigorous selection process, including background
+                            checks, reference verifications, and comprehensive training.</p>
+                    </div>
+                    <div class="faq-item reveal-up" style="transition-delay: 200ms;">
+                        <h3>Can the care plan be adjusted over time?</h3>
+                        <p>Yes. We understand that needs change, and our care plans are entirely flexible. Families can
+                            adjust the level and type of support at any time.</p>
+                    </div>
+                    <div class="faq-item reveal-up" style="transition-delay: 300ms;">
+                        <h3>Do you offer short-term or respite care?</h3>
+                        <p>Yes, we provide flexible scheduling, including short-term respite care for family members who
+                            need a temporary break or support during post-hospital recovery.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 16. Family Testimonial Section -->
+        <section class="testimonials section-padding bg-light">
+            <div class="container">
+                <div class="section-header center reveal-up">
+                    <h2>Words from Families.</h2>
+                </div>
+
+                <div class="testimonial-carousel reveal-up">
+                    <div class="testimonial-track" id="testimonialTrack">
+                        <div class="testimonial-card">
+                            <p class="quote-text">VitalCare gave our family something incredibly valuable — peace of
+                                mind. We knew our mother had someone kind and dependable with her.</p>
+                            <span class="quote-author">— Family Member</span>
+                        </div>
+                        <div class="testimonial-card">
+                            <p class="quote-text">The communication made all the difference. We always felt connected
+                                even when we were away.</p>
+                            <span class="quote-author">— Family Member</span>
+                        </div>
+                        <div class="testimonial-card">
+                            <p class="quote-text">The caregiver became more than support. She became a familiar and
+                                trusted presence in our home.</p>
+                            <span class="quote-author">— Family Member</span>
+                        </div>
+                    </div>
+                    <div class="carousel-nav">
+                        <button class="nav-dot active" data-index="0" aria-label="Testimonial 1"></button>
+                        <button class="nav-dot" data-index="1" aria-label="Testimonial 2"></button>
+                        <button class="nav-dot" data-index="2" aria-label="Testimonial 3"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 17. Caretaker Profile Section -->
+        <section class="team section-padding">
+            <div class="container">
+                <div class="section-header center reveal-up">
+                    <h2>The People Behind the Care.</h2>
+                </div>
+
+                <div class="team-grid">
+                    <div class="team-card reveal-up">
+                        <div class="team-img">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&auto=format&fit=crop"
+                                alt="Care Specialist">
+                        </div>
+                        <div class="team-info">
+                            <h3>CARE SPECIALIST</h3>
+                            <p>Compassionate Caregiver</p>
+                        </div>
+                    </div>
+                    <div class="team-card reveal-up" style="transition-delay: 100ms;">
+                        <div class="team-img">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=600&auto=format&fit=crop"
+                                alt="Home Support">
+                        </div>
+                        <div class="team-info">
+                            <h3>HOME SUPPORT</h3>
+                            <p>Daily Living Specialist</p>
+                        </div>
+                    </div>
+                    <div class="team-card reveal-up" style="transition-delay: 200ms;">
+                        <div class="team-img">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&auto=format&fit=crop"
+                                alt="Family Care">
+                        </div>
+                        <div class="team-info">
+                            <h3>FAMILY CARE</h3>
+                            <p>Companion Care Specialist</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="center reveal-up" style="margin-top: 3rem;">
+                    <button class="btn btn-secondary cta-trigger">Meet Our Care Team <span
+                            class="arrow">→</span></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 19. Contact Section -->
+        <section id="contact" class="contact section-padding bg-ivory">
+            <div class="container contact-grid">
+                <div class="contact-info reveal-left">
+                    <span class="eyebrow">LET'S CONNECT</span>
+                    <h2>Care Starts With a Conversation.</h2>
+                    <p class="lead">Whether you're exploring care for a loved one or simply looking for guidance, we're
+                        here to listen.</p>
+
+                    <div class="info-blocks">
+                        <div class="info-block">
+                            <h4>CALL</h4>
+                            <a href="tel:+910000000000">+91 XXX XXX XXXX</a>
+                        </div>
+                        <div class="info-block">
+                            <h4>EMAIL</h4>
+                            <a href="mailto:hello@vitalcare.example">hello@vitalcare.example</a>
+                        </div>
+                        <div class="info-block">
+                            <h4>HOURS</h4>
+                            <p>Available for care enquiries</p>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-secondary cta-trigger">Talk to Our Care Team <span
+                            class="arrow">→</span></button>
+                </div>
+
+                <div class="contact-form-wrapper reveal-right">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="c_name">Name</label>
+                            <input type="text" id="c_name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="c_email">Email</label>
+                            <input type="email" id="c_email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="c_phone">Phone</label>
+                            <input type="tel" id="c_phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="c_message">Message</label>
+                            <textarea id="c_message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">Send Enquiry <span
+                                class="arrow">→</span></button>
+                        <div class="form-success" id="contactSuccess" style="display: none;">
+                            Thank you. Your message has been sent.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- 20. Final CTA -->
+        <section class="final-cta">
+            <div class="final-cta-bg">
+                <img src="https://images.unsplash.com/photo-1517457210595-46f9185a73d2?q=80&w=2000&auto=format&fit=crop"
+                    alt="Caregiver walking beside an elderly person in a peaceful garden" class="parallax-img">
+                <div class="overlay"></div>
+            </div>
+            <div class="container center final-cta-content reveal-up">
+                <h2>Because Every Life Deserves Thoughtful Care.</h2>
+                <p>Professional support. Human connection. Peace of mind for families.</p>
+                <button class="btn btn-primary cta-trigger">Request Care <span class="arrow">→</span></button>
+            </div>
+        </section>
+    </main>
+
+    <!-- 21. Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#home" class="footer-logo">
+                    <div class="logo-svg">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="3"
+                                stroke-dasharray="10 5" opacity="0.3" />
+                            <circle cx="50" cy="50" r="38" fill="none" stroke="currentColor" stroke-width="1"
+                                opacity="0.6" />
+                            <path
+                                d="M50 40 C 50 40, 40 30, 30 40 C 20 50, 50 70, 50 70 C 50 70, 80 50, 70 40 C 60 30, 50 40, 50 40 Z"
+                                fill="currentColor" opacity="0.2" />
+                            <circle cx="50" cy="35" r="8" fill="currentColor" />
+                            <path d="M35 70 C 35 55, 65 55, 65 70" fill="none" stroke="currentColor" stroke-width="6"
+                                stroke-linecap="round" />
+                            <path d="M60 25 Q 70 20 75 30" fill="none" stroke="var(--accent)" stroke-width="3"
+                                stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <span class="wordmark">VITALCARE</span>
+                        <span class="descriptor">COMPASSIONATE HOME CARE</span>
+                    </div>
+                </a>
+                <p class="footer-tagline">Care That Feels Like Family.</p>
+                <p class="footer-desc"
+                    style="color: var(--text-main); margin-bottom: 1.5rem; font-size: 0.95rem; line-height: 1.6; max-width: 320px;">
+                    Providing thoughtful, personalized home care and caretaker support designed around comfort, dignity,
+                    and peace of mind.</p>
+
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#approach">Care Approach</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#why-vitalcare">Why VitalCare</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#" class="cta-trigger">Request Care</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-connect">
+                <h4>Connect</h4>
+                <a href="tel:+919876543210" class="footer-contact-link">+91 98765 43210</a>
+                <a href="mailto:hello@vitalcare.com" class="footer-contact-link">hello@vitalcare.com</a>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>&copy; 2026 VitalCare. All rights reserved.</p>
+            <div class="footer-legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 18. CTA SECTION WITH POPUP CARD -->
+    <div class="modal-overlay" id="ctaModal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+        <div class="modal-container">
+            <button class="modal-close" id="closeModal" aria-label="Close modal">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+
+            <div class="modal-content" id="modalContent">
+                <div class="modal-decorative">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="45" fill="none" stroke="var(--accent)" stroke-width="1"
+                            opacity="0.4" />
+                        <circle cx="50" cy="50" r="30" fill="none" stroke="var(--primary)" stroke-width="0.5"
+                            opacity="0.2" />
+                        <path
+                            d="M50 35 C 50 35, 42 27, 34 35 C 26 43, 50 59, 50 59 C 50 59, 74 43, 66 35 C 58 27, 50 35, 50 35 Z"
+                            fill="var(--primary)" opacity="0.1" />
+                    </svg>
+                </div>
+                <h2 id="modalTitle">Let's Talk About the Care You Need.</h2>
+                <p class="modal-subtitle">Tell us a little about your requirements and our care team can help you
+                    explore the next step.</p>
+
+                <form id="requestForm" class="modal-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="m_name">Your Name</label>
+                            <input type="text" id="m_name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="m_phone">Phone Number</label>
+                            <input type="tel" id="m_phone" name="phone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="m_email">Email Address</label>
+                        <input type="email" id="m_email" name="email" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="m_care_for">Care For</label>
+                            <div class="select-wrapper">
+                                <select id="m_care_for" name="care_for" required>
+                                    <option value="" disabled selected>Select an option</option>
+                                    <option value="parent">Parent</option>
+                                    <option value="grandparent">Grandparent</option>
+                                    <option value="spouse">Spouse</option>
+                                    <option value="myself">Myself</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="m_care_needed">Care Needed</label>
+                            <div class="select-wrapper">
+                                <select id="m_care_needed" name="care_needed" required>
+                                    <option value="" disabled selected>Select an option</option>
+                                    <option value="personal">Personal Care</option>
+                                    <option value="companionship">Companionship</option>
+                                    <option value="daily">Daily Living Support</option>
+                                    <option value="mobility">Mobility Support</option>
+                                    <option value="post_hospital">Post-Hospital Support</option>
+                                    <option value="family">Family Care Support</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Preferred Contact</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="contact_pref" value="phone" checked>
+                                <span>Phone</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="contact_pref" value="whatsapp">
+                                <span>WhatsApp</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="contact_pref" value="email">
+                                <span>Email</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="m_message">Tell us briefly about your care needs</label>
+                        <textarea id="m_message" name="message" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary submit-btn w-full">Request a Care Consultation <span
+                            class="arrow">→</span></button>
+                </form>
+
+                <div class="modal-success" id="modalSuccess" style="display: none;">
+                    <div class="success-icon">✓</div>
+                    <h3>Thank You.</h3>
+                    <p>Your request has been received. Our care team will review your information and contact you soon.
+                    </p>
+                    <button class="btn btn-secondary w-full" id="closeSuccessBtn">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Drop to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+        </svg>
+    </button>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
